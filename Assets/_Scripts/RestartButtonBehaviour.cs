@@ -21,6 +21,6 @@ public class RestartButtonBehaviour : MonoBehaviour
     public void OnRestartButtonPressed()
     {
         Debug.Log("RestartButton Pressed");
-        SceneManager.LoadScene("Play");
+        SceneManager.LoadScene("Start");
     }
 }
